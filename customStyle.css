@@ -4,7 +4,12 @@
 }
 
 #Qualities img{
-    filter: blur(5px) grayscale();
+    filter: blur(2px) grayscale();
+}
+
+#grayscale{
+    filter: grayscale();
+    border: 11px solid black;
 }
 
 #container{
@@ -12,6 +17,7 @@
     width: 100%;
     height: auto;
 }
+
 .centered{
     position: absolute;
     left: 50%;
